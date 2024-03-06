@@ -16,7 +16,7 @@ public class Books {
    public void displaymembers(){
      System.out.println("The bookNo is " + BookNo);
      System.out.println("The Author is " + Author);
-     System.out.println("The Date is " + Date);
+     System.out.println("The Date of publication is " + Date);
    }
    public static void main(String[]args) {
      Books B1= new  Books(45, "Will Smith", "2nd of feb 1999");
