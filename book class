@@ -1,0 +1,25 @@
+public class Books {
+  private double  BookNo;
+  private String Author;
+  private String Date;
+  
+   public  Books( double BookNo,String Author,String Date ) {
+     this.BookNo=BookNo;
+     this.Author=Author;
+     this.Date=Date;
+   }
+    public void Books( double BookNo,String Author,String Date ) {
+     this.BookNo=BookNo;
+     this.Author=Author;
+     this.Date=Date;
+   }
+   public void displaymembers(){
+     System.out.println("The bookNo is " + BookNo);
+     System.out.println("The Author is " + Author);
+     System.out.println("The Date is " + Date);
+   }
+   public static void main(String[]args) {
+     Books B1= new  Books(45, "Will Smith", "2nd of feb 1999");
+     B1.displaymembers();
+   }
+}
